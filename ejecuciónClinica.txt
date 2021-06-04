@@ -1,0 +1,16 @@
+manage.py runserver
+
+python -m pip freeze
+
+pip install django-dotenv
+
+python manage.py makemigrations
+
+python manage.py migrate
+
+python manage.py startapp api
+
+python manage.py createsuperuser
+
+admin
+admin123.
